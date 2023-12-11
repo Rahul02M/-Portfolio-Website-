@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Protfolio Website</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo">
+        <ul>
+          <li><a href="#header">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#portfolio">PORTFOLIO </a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Website Designer</p>
+        <h1>Hi,I'm <span>Rahul</span><br>From New Delhi</h1>
+      </div>
+    </div>
+  </div>
+  <!------------------about----------->
+  <div id="abount">
+    <div class="container"></div>
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/user.png">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub">About Me</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, porro saepe dignissimos amet, ut
+          perspiciatis quo iure harum dicta illum quibusdam aperiam aliquid ipsa deserunt, reprehenderit
+          soluta ea tenetur iusto!
+        </p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('Education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="Skills">
+          <ul>
+            <li><span>Web Development</span><br>Web App Development</li>
+            <li><span>Web Development</span><br>Web App Development</li>
+            <li><span>Web Development</span><br>Web App Development</li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="Experience">
+          <ul>
+            <li><span>2023-current</span><br>softer developer</li>
+
+          </ul>
+        </div>
+        <div class="tab-contents" id="Education">
+          <ul>
+            <li><span>2020-2023</span><br>GGIPU collage</li>
+            <li><span>2019-2020</span><br>DTEA SR SCE SCHOOL</li>
+            <li><span>2017-2018</span><br>DTEA SR SCE SCHOOL</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------services--------------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title"> MY Service</h1>
+      <div class="services-list">
+        <div>
+          <h2> Web Design</h2>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ea in soluta neque tempora
+            ratione? Magni illo excepturi id temporibus ab iste sit voluptatem facere voluptatum. Nemo sit
+            minus nisi. </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2> UI/UX Design</h2>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ea in soluta neque tempora
+            ratione? Magni illo excepturi id temporibus ab iste sit voluptatem facere voluptatum. Nemo sit
+            minus nisi. </p>
+          <a href="#">learn more</a>
+        </div>
+        <div>
+          <h2> App Designer</h2>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ea in soluta neque tempora
+            ratione? Magni illo excepturi id temporibus ab iste sit voluptatem facere voluptatum. Nemo sit
+            minus nisi. </p>
+          <a href="#">learn more</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!---------------------portfolio---------------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png">
+          <div class="layer">
+            <h3> Social Media App</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id incidunt rerum sequi accusantium nostrum
+              quasi ut fuga voluptate ab nihil, quaerat praesentium impedit corrupti nesciunt sapiente possimus. Ex,
+              omnis eligendi?</p>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png">
+          <div class="layer">
+            <h3> Music App</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id incidunt rerum sequi accusantium nostrum
+              quasi ut fuga voluptate ab nihil, quaerat praesentium impedit corrupti nesciunt sapiente possimus. Ex,
+              omnis eligendi?</p>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png">
+          <div class="layer">
+            <h3> Online shooping App</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id incidunt rerum sequi accusantium nostrum
+              quasi ut fuga voluptate ab nihil, quaerat praesentium impedit corrupti nesciunt sapiente possimus. Ex,
+              omnis eligendi?</p>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!------------------------------------------contact-->
+  <div id="CONTACT">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1.class="sub-title">Contact Me</h1>
+            <p>contact@example.com</p>
+            <p>0208375635</p>
+            <div class="social-icons">
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-twitter-square"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+
+            </div>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your message"></textarea>
+            <button type="submit " class="btn btn2"> submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p> Copyright @ kevin. Made by Rahul </p>
+
+    </div>
+  </div>
+
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabnanme) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabnanme).classList.add("active-tab");
+    }
+
+  </script>
+</body>
+
+</html>
